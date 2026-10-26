@@ -28,7 +28,7 @@ El repositorio incluye:
 - **Memoria para el grafo real por defecto (LiveJournal):** unos 8 GB de RAM, ~1 GB de memoria de GPU y ~1 GB de disco para la descarga y la caché.
 - **Para Orkut** (opcional, 3,5 veces más grande): se recomiendan 16 GB de RAM y ~3 GB de memoria de GPU.
 
-Entorno donde se desarrolló y probó: WSL2 con Ubuntu, Python 3.13, NVIDIA RTX 5060 (8 GB) y driver 591.59 (CUDA 13.1).
+Entorno donde se desarrolló y probó: WSL2 con Ubuntu, Python 3.13, NVIDIA RTX 5060 (8 GB) y driver 610.57 (CUDA 13.3).
 
 ## Instalación
 
