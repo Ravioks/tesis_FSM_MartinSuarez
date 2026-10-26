@@ -1,0 +1,415 @@
+{
+  "grafo": {
+    "nombre": "completo_n1000",
+    "transacciones": 1,
+    "nodos": 1000,
+    "aristas": 499500,
+    "densidad": 1.0,
+    "grado_min": 999,
+    "grado_max": 999,
+    "grado_prom": 999.0,
+    "grado_desv": 0.0,
+    "nodos_aislados": 0,
+    "lazos_ignorados": 0,
+    "multiaristas_ignoradas": 0,
+    "etiquetas_nodo": {
+      "A": 338,
+      "C": 335,
+      "B": 327
+    },
+    "etiquetas_arista": {
+      "b": 249987,
+      "a": 249513
+    },
+    "caminos_esperados": 498501000,
+    "triangulos": 166167000,
+    "pct_caminos_top1pct_nodos": 1.0,
+    "conexo": true,
+    "componentes": 1,
+    "componente_mayor": 1000,
+    "pct_componente_mayor": 100.0,
+    "transacciones_conexas": 1
+  },
+  "ejecucion": {
+    "metodo": "centro",
+    "t_construccion_s": 1.5727004489999672,
+    "repeticiones": 1,
+    "t_censo_prom_s": 326.7968629070001,
+    "t_censo_min_s": 326.7968629070001,
+    "t_censo_max_s": 326.7968629070001,
+    "t_censo_desv_s": 0.0,
+    "caminos_por_s": 1525415.499909078,
+    "memoria_pico_mb": null
+  },
+  "exploracion": {
+    "generados": 498501000,
+    "unicos": 498501000,
+    "descartados": 0,
+    "pct_descartados": 0.0,
+    "redundancia": 1.0,
+    "tam_hash_ids": 0,
+    "validacion_ok": true
+  },
+  "conteo": {
+    "no_inducido": 498501000,
+    "caminos_en_triangulos": 498501000,
+    "inducido": 0,
+    "patrones_distintos": 63,
+    "patrones_frecuencia_1": 0
+  },
+  "censo": [
+    {
+      "patron": "C -[a]- A -[b]- A",
+      "frecuencia": 9588469,
+      "porcentaje": 1.9234603340815766
+    },
+    {
+      "patron": "A -[a]- A -[b]- A",
+      "frecuencia": 9568426,
+      "porcentaje": 1.919439680161123
+    },
+    {
+      "patron": "A -[b]- A -[b]- C",
+      "frecuencia": 9558791,
+      "porcentaje": 1.9175068856431583
+    },
+    {
+      "patron": "A -[a]- C -[b]- A",
+      "frecuencia": 9539528,
+      "porcentaje": 1.9136427008170496
+    },
+    {
+      "patron": "A -[a]- A -[a]- C",
+      "frecuencia": 9520105,
+      "porcentaje": 1.9097464197664598
+    },
+    {
+      "patron": "A -[a]- A -[b]- C",
+      "frecuencia": 9491145,
+      "porcentaje": 1.9039370031354
+    },
+    {
+      "patron": "A -[a]- C -[b]- C",
+      "frecuencia": 9489856,
+      "porcentaje": 1.903678427926925
+    },
+    {
+      "patron": "A -[b]- C -[b]- C",
+      "frecuencia": 9459776,
+      "porcentaje": 1.897644337724498
+    },
+    {
+      "patron": "C -[a]- A -[b]- C",
+      "frecuencia": 9450644,
+      "porcentaje": 1.8958124457122454
+    },
+    {
+      "patron": "A -[a]- C -[a]- C",
+      "frecuencia": 9448612,
+      "porcentaje": 1.8954048236613368
+    },
+    {
+      "patron": "C -[a]- C -[b]- A",
+      "frecuencia": 9420576,
+      "porcentaje": 1.8897807627266545
+    },
+    {
+      "patron": "A -[b]- A -[b]- B",
+      "frecuencia": 9360537,
+      "porcentaje": 1.8777368550915645
+    },
+    {
+      "patron": "B -[a]- A -[b]- A",
+      "frecuencia": 9329475,
+      "porcentaje": 1.8715057743113854
+    },
+    {
+      "patron": "C -[a]- C -[b]- C",
+      "frecuencia": 9316730,
+      "porcentaje": 1.8689491094300714
+    },
+    {
+      "patron": "A -[a]- B -[b]- A",
+      "frecuencia": 9311699,
+      "porcentaje": 1.867939883771547
+    },
+    {
+      "patron": "A -[a]- A -[b]- B",
+      "frecuencia": 9296120,
+      "porcentaje": 1.8648147145141134
+    },
+    {
+      "patron": "A -[b]- B -[b]- C",
+      "frecuencia": 9294640,
+      "porcentaje": 1.8645178244376641
+    },
+    {
+      "patron": "A -[a]- C -[b]- B",
+      "frecuencia": 9290966,
+      "porcentaje": 1.8637808148830193
+    },
+    {
+      "patron": "C -[a]- A -[b]- B",
+      "frecuencia": 9286534,
+      "porcentaje": 1.8628917494648958
+    },
+    {
+      "patron": "A -[b]- C -[b]- B",
+      "frecuencia": 9266586,
+      "porcentaje": 1.8588901526777277
+    },
+    {
+      "patron": "A -[a]- B -[b]- C",
+      "frecuencia": 9262912,
+      "porcentaje": 1.858153143123083
+    },
+    {
+      "patron": "A -[a]- A -[a]- B",
+      "frecuencia": 9261130,
+      "porcentaje": 1.857795671422926
+    },
+    {
+      "patron": "B -[b]- A -[b]- C",
+      "frecuencia": 9259401,
+      "porcentaje": 1.8574488315971283
+    },
+    {
+      "patron": "B -[a]- A -[a]- C",
+      "frecuencia": 9255020,
+      "porcentaje": 1.856569996850558
+    },
+    {
+      "patron": "C -[a]- B -[b]- A",
+      "frecuencia": 9251295,
+      "porcentaje": 1.85582275662436
+    },
+    {
+      "patron": "A -[a]- C -[a]- B",
+      "frecuencia": 9250588,
+      "porcentaje": 1.8556809314324345
+    },
+    {
+      "patron": "B -[a]- A -[b]- C",
+      "frecuencia": 9225255,
+      "porcentaje": 1.850599096090078
+    },
+    {
+      "patron": "B -[a]- C -[b]- A",
+      "frecuencia": 9218070,
+      "porcentaje": 1.8491577750094783
+    },
+    {
+      "patron": "A -[a]- B -[a]- C",
+      "frecuencia": 9217363,
+      "porcentaje": 1.8490159498175531
+    },
+    {
+      "patron": "B -[b]- C -[b]- C",
+      "frecuencia": 9189781,
+      "porcentaje": 1.8434829619198356
+    },
+    {
+      "patron": "C -[a]- C -[b]- B",
+      "frecuencia": 9148155,
+      "porcentaje": 1.835132727918299
+    },
+    {
+      "patron": "C -[a]- B -[b]- C",
+      "frecuencia": 9146490,
+      "porcentaje": 1.8347987265822938
+    },
+    {
+      "patron": "B -[a]- C -[b]- C",
+      "frecuencia": 9143147,
+      "porcentaje": 1.834128116092044
+    },
+    {
+      "patron": "B -[a]- C -[a]- C",
+      "frecuencia": 9106947,
+      "porcentaje": 1.826866345303219
+    },
+    {
+      "patron": "B -[a]- B -[b]- A",
+      "frecuencia": 9044195,
+      "porcentaje": 1.8142782060617733
+    },
+    {
+      "patron": "A -[a]- B -[a]- B",
+      "frecuencia": 9016497,
+      "porcentaje": 1.808721948401307
+    },
+    {
+      "patron": "B -[a]- A -[b]- B",
+      "frecuencia": 9010356,
+      "porcentaje": 1.807490055185446
+    },
+    {
+      "patron": "A -[b]- B -[b]- B",
+      "frecuencia": 9003491,
+      "porcentaje": 1.8061129265538083
+    },
+    {
+      "patron": "B -[a]- B -[b]- C",
+      "frecuencia": 8972473,
+      "porcentaje": 1.7998906722353616
+    },
+    {
+      "patron": "A -[a]- B -[b]- B",
+      "frecuencia": 8967293,
+      "porcentaje": 1.7988515569677894
+    },
+    {
+      "patron": "B -[a]- B -[a]- C",
+      "frecuencia": 8927917,
+      "porcentaje": 1.7909526761230168
+    },
+    {
+      "patron": "B -[a]- C -[b]- B",
+      "frecuencia": 8927566,
+      "porcentaje": 1.7908822650305616
+    },
+    {
+      "patron": "B -[b]- B -[b]- C",
+      "frecuencia": 8926231,
+      "porcentaje": 1.7906144621575484
+    },
+    {
+      "patron": "C -[a]- B -[b]- B",
+      "frecuencia": 8885049,
+      "porcentaje": 1.7823532951789465
+    },
+    {
+      "patron": "B -[a]- B -[b]- B",
+      "frecuencia": 8659280,
+      "porcentaje": 1.737063717023637
+    },
+    {
+      "patron": "A -[b]- A -[b]- A",
+      "frecuencia": 4817995,
+      "porcentaje": 0.9664965566769174
+    },
+    {
+      "patron": "A -[a]- C -[a]- A",
+      "frecuencia": 4784523,
+      "porcentaje": 0.9597820265154935
+    },
+    {
+      "patron": "A -[b]- C -[b]- A",
+      "frecuencia": 4755204,
+      "porcentaje": 0.9539005939807543
+    },
+    {
+      "patron": "A -[a]- A -[a]- A",
+      "frecuencia": 4749787,
+      "porcentaje": 0.9528139361806697
+    },
+    {
+      "patron": "C -[a]- A -[a]- C",
+      "frecuencia": 4743912,
+      "porcentaje": 0.9516354029380082
+    },
+    {
+      "patron": "C -[b]- A -[b]- C",
+      "frecuencia": 4714854,
+      "porcentaje": 0.9458063273694536
+    },
+    {
+      "patron": "C -[b]- C -[b]- C",
+      "frecuencia": 4676291,
+      "porcentaje": 0.938070535465325
+    },
+    {
+      "patron": "A -[b]- B -[b]- A",
+      "frecuencia": 4672479,
+      "porcentaje": 0.9373058429170653
+    },
+    {
+      "patron": "A -[a]- B -[a]- A",
+      "frecuencia": 4639453,
+      "porcentaje": 0.9306807809813822
+    },
+    {
+      "patron": "C -[a]- C -[a]- C",
+      "frecuencia": 4636664,
+      "porcentaje": 0.9301213036683978
+    },
+    {
+      "patron": "C -[b]- B -[b]- C",
+      "frecuencia": 4595723,
+      "porcentaje": 0.9219084816279205
+    },
+    {
+      "patron": "C -[a]- B -[a]- C",
+      "frecuencia": 4551802,
+      "porcentaje": 0.9130978674064847
+    },
+    {
+      "patron": "B -[b]- A -[b]- B",
+      "frecuencia": 4518665,
+      "porcentaje": 0.9064505387150678
+    },
+    {
+      "patron": "B -[a]- A -[a]- B",
+      "frecuencia": 4486717,
+      "porcentaje": 0.9000417250918253
+    },
+    {
+      "patron": "B -[b]- C -[b]- B",
+      "frecuencia": 4485569,
+      "porcentaje": 0.8998114346811742
+    },
+    {
+      "patron": "B -[a]- C -[a]- B",
+      "frecuencia": 4442700,
+      "porcentaje": 0.8912118531357008
+    },
+    {
+      "patron": "B -[a]- B -[a]- B",
+      "frecuencia": 4353385,
+      "porcentaje": 0.8732951388262009
+    },
+    {
+      "patron": "B -[b]- B -[b]- B",
+      "frecuencia": 4310160,
+      "porcentaje": 0.8646241431812575
+    }
+  ],
+  "hubs": [
+    {
+      "nodo": "0",
+      "etiqueta": "C",
+      "grado": 999,
+      "caminos": 498501,
+      "porcentaje": 0.1
+    },
+    {
+      "nodo": "1",
+      "etiqueta": "A",
+      "grado": 999,
+      "caminos": 498501,
+      "porcentaje": 0.1
+    },
+    {
+      "nodo": "2",
+      "etiqueta": "A",
+      "grado": 999,
+      "caminos": 498501,
+      "porcentaje": 0.1
+    },
+    {
+      "nodo": "3",
+      "etiqueta": "C",
+      "grado": 999,
+      "caminos": 498501,
+      "porcentaje": 0.1
+    },
+    {
+      "nodo": "4",
+      "etiqueta": "B",
+      "grado": 999,
+      "caminos": 498501,
+      "porcentaje": 0.1
+    }
+  ],
+  "comparacion": null
+}

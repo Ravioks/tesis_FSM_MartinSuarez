@@ -1,0 +1,59 @@
+
+=== GRAFO ===
+Nombre: completo_n1000 | transacciones: 1
+Nodos: 1000 | aristas: 499500 | densidad: 1.000000
+Grado min/max/prom/desv: 999 / 999 / 999.00 / 0.00
+Nodos aislados: 0 | lazos ignorados: 0 | multiaristas ignoradas: 0
+Etiquetas nodo (3): {'A': 338, 'C': 335, 'B': 327}
+Etiquetas arista (2): {'b': 249987, 'a': 249513}
+Conexo: sí | componentes: 1 | componente mayor: 1000 nodos (100.0%)
+Triángulos: 166167000
+El 1% de nodos con mayor grado genera el 1.00% de los caminos
+
+=== EJECUCIÓN ===
+Método: centro | repeticiones: 1
+Construcción/carga del grafo: 1.573 s
+Censo prom/min/max/desv: 326.797 s / 326.797 s / 326.797 s / 0.000 ms
+Rendimiento: 1,525,415 caminos/s
+
+=== EXPLORACIÓN ===
+Candidatos generados: 498501000 | únicos: 498501000 | descartados: 0 (0.0%)
+Redundancia (generados/únicos): 1.00x | IDs en hash de vistos: 0
+Validación contra Σ C(grado,2) = 498501000: OK
+
+=== CONTEO ===
+No inducido: 498501000 | en triángulos: 498501000 | inducido: 0
+Patrones distintos: 63 | patrones con frecuencia 1: 0
+
+=== CENSO (mostrando 20 de 63 con frecuencia >= 1) ===
+   #  Patrón             Frecuencia        %
+   1  C -[a]- A -[b]- A     9588469    1.92%
+   2  A -[a]- A -[b]- A     9568426    1.92%
+   3  A -[b]- A -[b]- C     9558791    1.92%
+   4  A -[a]- C -[b]- A     9539528    1.91%
+   5  A -[a]- A -[a]- C     9520105    1.91%
+   6  A -[a]- A -[b]- C     9491145    1.90%
+   7  A -[a]- C -[b]- C     9489856    1.90%
+   8  A -[b]- C -[b]- C     9459776    1.90%
+   9  C -[a]- A -[b]- C     9450644    1.90%
+  10  A -[a]- C -[a]- C     9448612    1.90%
+  11  C -[a]- C -[b]- A     9420576    1.89%
+  12  A -[b]- A -[b]- B     9360537    1.88%
+  13  B -[a]- A -[b]- A     9329475    1.87%
+  14  C -[a]- C -[b]- C     9316730    1.87%
+  15  A -[a]- B -[b]- A     9311699    1.87%
+  16  A -[a]- A -[b]- B     9296120    1.86%
+  17  A -[b]- B -[b]- C     9294640    1.86%
+  18  A -[a]- C -[b]- B     9290966    1.86%
+  19  C -[a]- A -[b]- B     9286534    1.86%
+  20  A -[b]- C -[b]- B     9266586    1.86%
+
+=== NODOS QUE MÁS APORTAN ===
+           0 (C)  grado    999  caminos     498501    0.10%
+           1 (A)  grado    999  caminos     498501    0.10%
+           2 (A)  grado    999  caminos     498501    0.10%
+           3 (C)  grado    999  caminos     498501    0.10%
+           4 (B)  grado    999  caminos     498501    0.10%
+
+Archivos generados:
+  docs/resultados/cpu_completo_n1000/0001_completo_n1000.json
